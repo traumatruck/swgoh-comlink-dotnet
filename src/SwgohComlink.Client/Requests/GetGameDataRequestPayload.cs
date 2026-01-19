@@ -18,5 +18,4 @@ public class GetGameDataRequestPayload
 
     [JsonPropertyName("items")]
     public string? Items { get; set; }
-
 }

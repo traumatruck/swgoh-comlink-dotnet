@@ -9,5 +9,4 @@ public class GetGuildRequestPayload
 
     [JsonPropertyName("includeRecentGuildActivityInfo")]
     public bool? IncludeRecentGuildActivityInfo { get; set; }
-
 }

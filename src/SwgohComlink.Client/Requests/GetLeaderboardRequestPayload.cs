@@ -6,5 +6,4 @@ public class GetLeaderboardRequestPayload
 {
     [JsonPropertyName("leaderboardType")]
     public double? LeaderboardType { get; set; }
-
 }

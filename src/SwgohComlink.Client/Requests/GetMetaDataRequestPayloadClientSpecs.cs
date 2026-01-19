@@ -18,5 +18,4 @@ public class GetMetaDataRequestPayloadClientSpecs
 
     [JsonPropertyName("region")]
     public string? Region { get; set; }
-
 }

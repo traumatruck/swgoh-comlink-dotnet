@@ -9,5 +9,4 @@ public class GetPlayerRequestPayload
 
     [JsonPropertyName("playerId")]
     public string? PlayerId { get; set; }
-
 }

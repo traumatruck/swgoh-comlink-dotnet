@@ -9,5 +9,4 @@ public class GetSegmentedContentRequestPayload
 
     [JsonPropertyName("contentNameSpace")]
     public string? ContentNameSpace { get; set; }
-
 }

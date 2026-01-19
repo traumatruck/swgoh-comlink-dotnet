@@ -6,5 +6,4 @@ public class GetLocalizationBundleRequestPayload
 {
     [JsonPropertyName("id")]
     public string? Id { get; set; }
-
 }

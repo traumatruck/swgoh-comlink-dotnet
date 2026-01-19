@@ -11,4 +11,6 @@ public class GetEventsRequest : IRequest<GetEventsResponse>
     [JsonPropertyName("enums")]
     public bool? Enums { get; set; }
 
+    public static string Endpoint => "/getEvents";
+    public static HttpMethod HttpMethod => HttpMethod.Post;
 }

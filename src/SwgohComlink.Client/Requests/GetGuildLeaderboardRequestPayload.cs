@@ -9,5 +9,4 @@ public class GetGuildLeaderboardRequestPayload
 
     [JsonPropertyName("count")]
     public double? Count { get; set; }
-
 }

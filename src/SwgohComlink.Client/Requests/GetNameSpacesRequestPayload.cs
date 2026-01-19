@@ -6,5 +6,4 @@ public class GetNameSpacesRequestPayload
 {
     [JsonPropertyName("onlyCompatible")]
     public bool? OnlyCompatible { get; set; }
-
 }

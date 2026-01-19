@@ -6,5 +6,4 @@ public class GetMetaDataRequestPayload
 {
     [JsonPropertyName("clientSpecs")]
     public GetMetaDataRequestPayloadClientSpecs ClientSpecs { get; set; }
-
 }

@@ -6,5 +6,4 @@ public class GetGuildsRequestPayload
 {
     [JsonPropertyName("filterType")]
     public double? FilterType { get; set; }
-
 }
