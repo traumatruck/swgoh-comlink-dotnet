@@ -1,9 +1,9 @@
 <Solution>
     <Folder Name="/src/">
-        <Project Path="src/SwgohComlink.Client/SwgohComlink.Client.csproj"/>
-        <Project Path="src/SwgohComlink.DemoApi/SwgohComlink.DemoApi.csproj"/>
+        <Project Path="src/SwgohComlink.Client/SwgohComlink.Client.csproj" />
+        <Project Path="src\SwgohComlink.Api\SwgohComlink.Api.csproj" />
     </Folder>
     <Folder Name="/tests/">
-        <Project Path="tests/SwgohComlink.Client.Tests/SwgohComlink.Client.Tests.csproj"/>
+        <Project Path="tests/SwgohComlink.Client.Tests/SwgohComlink.Client.Tests.csproj" />
     </Folder>
 </Solution>
