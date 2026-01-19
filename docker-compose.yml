@@ -19,7 +19,7 @@ services:
     environment:
       ASPNETCORE_URLS: http://+:8080
       # api will call comlink via service DNS name on the compose network
-      COMLINK__BASEURL: http://comlink:3000
+      SwgohComlink__BaseUrl: http://comlink:3000
     depends_on:
       - comlink
     ports:
