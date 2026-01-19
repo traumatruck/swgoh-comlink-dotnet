@@ -1,0 +1,10 @@
+**/bin/
+**/obj/
+.git/
+.artifacts/
+artifacts/
+packages/
+tests/
+*.user
+*.suo
+.env

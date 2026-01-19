@@ -1,0 +1,32 @@
+services:
+  comlink:
+    image: ghcr.io/swgoh-utils/swgoh-comlink:latest
+    container_name: swgoh-comlink
+    restart: unless-stopped
+    environment:
+      APP_NAME: ${COMLINK_APP_NAME}
+    ports:
+      - "${COMLINK_HOST_PORT:-3200}:3000"
+    networks:
+      - swgoh
+
+  demoapi:
+    build:
+      context: .
+      dockerfile: src/SwgohComlink.DemoApi/Dockerfile
+    container_name: swgoh-comlink-demoapi
+    restart: unless-stopped
+    environment:
+      ASPNETCORE_URLS: http://+:8080
+      # demoapi will call comlink via service DNS name on the compose network
+      COMLINK__BASEURL: http://comlink:3000
+    depends_on:
+      - comlink
+    ports:
+      - "${DEMOAPI_HOST_PORT:-8080}:8080"
+    networks:
+      - swgoh
+
+networks:
+  swgoh:
+    driver: bridge

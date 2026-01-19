@@ -1,0 +1,6 @@
+@SwgohComlink.DemoApi_HostAddress = http://localhost:5188
+
+GET {{SwgohComlink.DemoApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
