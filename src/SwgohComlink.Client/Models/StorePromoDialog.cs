@@ -15,5 +15,4 @@ public class StorePromoDialog
 
     [JsonPropertyName("showPrice")]
     public bool? ShowPrice { get; set; }
-
 }

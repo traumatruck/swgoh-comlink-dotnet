@@ -33,5 +33,4 @@ public class GuildRaidResult
 
     [JsonPropertyName("cachedRewards")]
     public CachedRaidRewards CachedRewards { get; set; }
-
 }

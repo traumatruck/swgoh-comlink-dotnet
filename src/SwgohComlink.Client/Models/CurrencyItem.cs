@@ -12,5 +12,4 @@ public class CurrencyItem
 
     [JsonPropertyName("bonusQuantity")]
     public int? BonusQuantity { get; set; }
-
 }

@@ -36,5 +36,4 @@ public class SeasonStatus
 
     [JsonPropertyName("rank")]
     public int? Rank { get; set; }
-
 }

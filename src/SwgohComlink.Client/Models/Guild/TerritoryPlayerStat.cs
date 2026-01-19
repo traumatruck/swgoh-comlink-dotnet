@@ -12,5 +12,4 @@ public class TerritoryPlayerStat
 
     [JsonPropertyName("covertZoneResult")]
     public List<TerritoryStatCovertZoneResult> CovertZoneResult { get; set; }
-
 }

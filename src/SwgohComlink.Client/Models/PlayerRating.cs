@@ -7,5 +7,6 @@ public class PlayerRating
     [JsonPropertyName("playerSkillRating")]
     public PlayerSkillRating PlayerSkillRating { get; set; }
 
-    [JsonPropertyName("playerRankStatus")] public PlayerRankStatus PlayerRankStatus { get; set; }
+    [JsonPropertyName("playerRankStatus")]
+    public PlayerRankStatus PlayerRankStatus { get; set; }
 }

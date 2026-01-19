@@ -15,5 +15,4 @@ public class PlayerProfileStat
 
     [JsonPropertyName("index")]
     public int? Index { get; set; }
-
 }

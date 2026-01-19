@@ -12,5 +12,4 @@ public class TerritoryCovertZoneStatus
 
     [JsonPropertyName("successfulAttempts")]
     public int? SuccessfulAttempts { get; set; }
-
 }

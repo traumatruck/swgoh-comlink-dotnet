@@ -15,5 +15,4 @@ public class ModifierItem
 
     [JsonPropertyName("category")]
     public string? Category { get; set; }
-
 }

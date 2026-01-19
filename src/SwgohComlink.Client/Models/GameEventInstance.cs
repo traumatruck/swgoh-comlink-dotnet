@@ -63,5 +63,4 @@ public class GameEventInstance
 
     [JsonPropertyName("linkedEventId")]
     public List<string?> LinkedEventId { get; set; }
-
 }

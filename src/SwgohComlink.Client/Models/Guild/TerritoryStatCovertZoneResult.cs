@@ -9,5 +9,4 @@ public class TerritoryStatCovertZoneResult
 
     [JsonPropertyName("result")]
     public TerritoryCovertMissionResult Result { get; set; }
-
 }

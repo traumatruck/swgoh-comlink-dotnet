@@ -21,5 +21,4 @@ public class SystemModifier
 
     [JsonPropertyName("actionLink")]
     public ActionLink ActionLink { get; set; }
-
 }

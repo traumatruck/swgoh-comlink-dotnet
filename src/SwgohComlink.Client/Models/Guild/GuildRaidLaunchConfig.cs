@@ -30,5 +30,4 @@ public class GuildRaidLaunchConfig
 
     [JsonPropertyName("scheduledUtcOffsetSeconds")]
     public long? ScheduledUtcOffsetSeconds { get; set; }
-
 }

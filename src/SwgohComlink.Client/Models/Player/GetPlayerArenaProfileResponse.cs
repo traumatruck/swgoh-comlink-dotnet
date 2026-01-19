@@ -30,5 +30,4 @@ public class GetPlayerArenaProfileResponse
 
     [JsonPropertyName("nucleusId")]
     public string? NucleusId { get; set; }
-
 }

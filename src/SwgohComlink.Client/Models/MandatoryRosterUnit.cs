@@ -9,5 +9,4 @@ public class MandatoryRosterUnit
 
     [JsonPropertyName("slot")]
     public int? Slot { get; set; }
-
 }

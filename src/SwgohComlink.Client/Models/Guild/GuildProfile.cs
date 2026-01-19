@@ -75,5 +75,4 @@ public class GuildProfile
 
     [JsonPropertyName("autoLaunchConfig")]
     public GuildRaidLaunchConfig AutoLaunchConfig { get; set; }
-
 }

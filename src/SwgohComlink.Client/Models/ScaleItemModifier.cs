@@ -9,5 +9,4 @@ public class ScaleItemModifier
 
     [JsonPropertyName("target")]
     public List<ModifierItem> Target { get; set; }
-
 }

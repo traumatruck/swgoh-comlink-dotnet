@@ -9,5 +9,4 @@ public class TerritoryReconZoneSquad
 
     [JsonPropertyName("unit")]
     public List<TerritoryReconZoneUnit> Unit { get; set; }
-
 }

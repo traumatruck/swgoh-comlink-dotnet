@@ -60,5 +60,4 @@ public class UnitBattleStat
 
     [JsonPropertyName("eraLevel")]
     public int? EraLevel { get; set; }
-
 }

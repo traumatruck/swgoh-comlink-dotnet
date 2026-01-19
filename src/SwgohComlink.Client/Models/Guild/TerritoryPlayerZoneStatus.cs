@@ -9,5 +9,4 @@ public class TerritoryPlayerZoneStatus
 
     [JsonPropertyName("attempt")]
     public int? Attempt { get; set; }
-
 }

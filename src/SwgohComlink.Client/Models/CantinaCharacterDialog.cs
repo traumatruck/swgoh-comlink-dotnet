@@ -4,5 +4,6 @@ namespace SwgohComlink.Client.Models;
 
 public class CantinaCharacterDialog
 {
-    [JsonPropertyName("texture")] public string? Texture { get; set; }
+    [JsonPropertyName("texture")]
+    public string? Texture { get; set; }
 }

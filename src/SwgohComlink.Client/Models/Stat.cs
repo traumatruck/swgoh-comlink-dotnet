@@ -18,5 +18,4 @@ public class Stat
 
     [JsonPropertyName("scalar")]
     public long? Scalar { get; set; }
-
 }

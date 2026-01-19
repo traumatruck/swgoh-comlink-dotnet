@@ -12,5 +12,4 @@ public class GuildEventTracker
 
     [JsonPropertyName("endTime")]
     public long? EndTime { get; set; }
-
 }

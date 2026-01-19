@@ -9,5 +9,4 @@ public class TerritoryMapStat
 
     [JsonPropertyName("playerStat")]
     public List<TerritoryPlayerStat> PlayerStat { get; set; }
-
 }

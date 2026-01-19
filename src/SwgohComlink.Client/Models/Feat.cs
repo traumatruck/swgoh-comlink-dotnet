@@ -6,5 +6,4 @@ public class Feat
 {
     [JsonPropertyName("challengeId")]
     public string? ChallengeId { get; set; }
-
 }

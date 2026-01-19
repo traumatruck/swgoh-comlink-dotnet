@@ -9,5 +9,4 @@ public class PlayerRankStatus
 
     [JsonPropertyName("divisionId")]
     public int? DivisionId { get; set; }
-
 }

@@ -9,5 +9,4 @@ public class EquipmentSlot
 
     [JsonPropertyName("slot")]
     public int? Slot { get; set; }
-
 }

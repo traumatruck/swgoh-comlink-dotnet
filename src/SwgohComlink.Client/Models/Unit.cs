@@ -45,5 +45,4 @@ public class Unit
 
     [JsonPropertyName("purchasedAbilityId")]
     public List<string?> PurchasedAbilityId { get; set; }
-
 }

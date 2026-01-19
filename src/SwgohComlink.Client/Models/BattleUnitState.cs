@@ -54,5 +54,4 @@ public class BattleUnitState
 
     [JsonPropertyName("isUnscathed")]
     public bool? IsUnscathed { get; set; }
-
 }

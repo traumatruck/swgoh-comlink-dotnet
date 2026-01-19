@@ -12,5 +12,4 @@ public class GuildRaidMember
 
     [JsonPropertyName("memberRank")]
     public int? MemberRank { get; set; }
-
 }

@@ -18,5 +18,4 @@ public class TerritoryBattleResult
 
     [JsonPropertyName("finalStat")]
     public List<TerritoryMapStat> FinalStat { get; set; }
-
 }

@@ -9,5 +9,4 @@ public class TerritoryStrikeZoneStatus
 
     [JsonPropertyName("zoneStatus")]
     public TerritoryZoneStatus ZoneStatus { get; set; }
-
 }

@@ -21,5 +21,4 @@ public class TerritoryGuildProfile
 
     [JsonPropertyName("guildGalacticPower")]
     public long? GuildGalacticPower { get; set; }
-
 }

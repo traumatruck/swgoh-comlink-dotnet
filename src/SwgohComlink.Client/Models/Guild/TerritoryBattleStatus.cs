@@ -45,5 +45,4 @@ public class TerritoryBattleStatus
 
     [JsonPropertyName("selected")]
     public bool? Selected { get; set; }
-
 }

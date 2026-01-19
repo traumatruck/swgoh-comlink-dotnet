@@ -21,5 +21,4 @@ public class RoomData
 
     [JsonPropertyName("ownerId")]
     public string? OwnerId { get; set; }
-
 }

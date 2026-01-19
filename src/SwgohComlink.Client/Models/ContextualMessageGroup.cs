@@ -27,5 +27,4 @@ public class ContextualMessageGroup
 
     [JsonPropertyName("isFtue")]
     public bool? IsFtue { get; set; }
-
 }

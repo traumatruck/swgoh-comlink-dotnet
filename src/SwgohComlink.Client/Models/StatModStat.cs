@@ -21,5 +21,4 @@ public class StatModStat
 
     [JsonPropertyName("unscaledRollValue")]
     public List<long?> UnscaledRollValue { get; set; }
-
 }

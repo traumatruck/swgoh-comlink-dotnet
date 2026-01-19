@@ -15,5 +15,4 @@ public class PlayerPvpProfile
 
     [JsonPropertyName("eventId")]
     public string? EventId { get; set; }
-
 }

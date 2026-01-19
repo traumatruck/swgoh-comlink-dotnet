@@ -9,5 +9,4 @@ public class BattleUnitAbilityState
 
     [JsonPropertyName("cooldown")]
     public int? Cooldown { get; set; }
-
 }

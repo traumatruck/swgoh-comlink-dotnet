@@ -6,5 +6,4 @@ public class TerritoryConflictZoneStatus
 {
     [JsonPropertyName("zoneStatus")]
     public TerritoryZoneStatus ZoneStatus { get; set; }
-
 }

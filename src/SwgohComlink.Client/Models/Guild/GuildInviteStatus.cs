@@ -27,5 +27,4 @@ public class GuildInviteStatus
 
     [JsonPropertyName("playerName")]
     public string? PlayerName { get; set; }
-
 }

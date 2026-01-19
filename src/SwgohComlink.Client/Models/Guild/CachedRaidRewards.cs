@@ -9,5 +9,4 @@ public class CachedRaidRewards
 
     [JsonPropertyName("immediateRegularRankRewardPreview")]
     public List<RankRewardPreview> ImmediateRegularRankRewardPreview { get; set; }
-
 }

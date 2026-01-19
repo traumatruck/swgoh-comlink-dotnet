@@ -27,5 +27,4 @@ public class DatacronAffix
 
     [JsonPropertyName("scopeIcon")]
     public string? ScopeIcon { get; set; }
-
 }

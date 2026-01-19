@@ -33,5 +33,4 @@ public class BucketItem
 
     [JsonPropertyName("primaryReward")]
     public bool? PrimaryReward { get; set; }
-
 }

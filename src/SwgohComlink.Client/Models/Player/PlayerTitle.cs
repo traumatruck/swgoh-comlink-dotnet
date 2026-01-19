@@ -6,5 +6,4 @@ public class PlayerTitle
 {
     [JsonPropertyName("id")]
     public string? Id { get; set; }
-
 }

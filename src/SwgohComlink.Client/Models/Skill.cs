@@ -9,5 +9,4 @@ public class Skill
 
     [JsonPropertyName("tier")]
     public int? Tier { get; set; }
-
 }

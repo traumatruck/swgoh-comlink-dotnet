@@ -21,5 +21,4 @@ public class DatacronBattleStat
 
     [JsonPropertyName("highestTierApplied")]
     public int? HighestTierApplied { get; set; }
-
 }

@@ -123,5 +123,4 @@ public class GameEvent
 
     [JsonPropertyName("hideCompleted")]
     public bool? HideCompleted { get; set; }
-
 }

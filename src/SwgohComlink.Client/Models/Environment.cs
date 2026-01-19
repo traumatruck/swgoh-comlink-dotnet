@@ -12,5 +12,4 @@ public class Environment
 
     [JsonPropertyName("layoutPrefab")]
     public string? LayoutPrefab { get; set; }
-
 }

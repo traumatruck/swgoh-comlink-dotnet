@@ -60,5 +60,4 @@ public class ContextualMessage
 
     [JsonPropertyName("showExitButton")]
     public bool? ShowExitButton { get; set; }
-
 }

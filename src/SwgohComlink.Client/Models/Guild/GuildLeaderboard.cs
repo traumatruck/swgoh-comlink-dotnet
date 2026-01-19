@@ -12,5 +12,4 @@ public class GuildLeaderboard
 
     [JsonPropertyName("leaderboardId")]
     public GuildLeaderboardId LeaderboardId { get; set; }
-
 }

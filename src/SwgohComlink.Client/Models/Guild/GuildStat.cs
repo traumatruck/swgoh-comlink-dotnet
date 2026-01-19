@@ -9,5 +9,4 @@ public class GuildStat
 
     [JsonPropertyName("value")]
     public long? Value { get; set; }
-
 }

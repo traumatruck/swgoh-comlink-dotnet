@@ -9,5 +9,4 @@ public class GuildRaidPointsSummary
 
     [JsonPropertyName("totalPoints")]
     public long? TotalPoints { get; set; }
-
 }

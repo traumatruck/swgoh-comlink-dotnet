@@ -9,5 +9,4 @@ public class EraUnitStatus
 
     [JsonPropertyName("eraLevel")]
     public int? EraLevel { get; set; }
-
 }

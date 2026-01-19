@@ -78,5 +78,4 @@ public class PointAtElement
 
     [JsonPropertyName("bartenderTexture")]
     public string? BartenderTexture { get; set; }
-
 }

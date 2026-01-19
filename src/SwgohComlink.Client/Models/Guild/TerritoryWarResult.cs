@@ -18,5 +18,4 @@ public class TerritoryWarResult
 
     [JsonPropertyName("endTimeSeconds")]
     public long? EndTimeSeconds { get; set; }
-
 }

@@ -27,5 +27,4 @@ public class Squad
 
     [JsonPropertyName("datacron")]
     public DatacronBattleStat Datacron { get; set; }
-
 }

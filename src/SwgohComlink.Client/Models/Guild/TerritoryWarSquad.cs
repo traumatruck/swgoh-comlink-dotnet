@@ -30,5 +30,4 @@ public class TerritoryWarSquad
 
     [JsonPropertyName("crewInfo")]
     public List<UnitTierSummary> CrewInfo { get; set; }
-
 }

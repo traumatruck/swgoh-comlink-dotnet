@@ -15,5 +15,4 @@ public class TerritoryWarPlayerStatus
 
     [JsonPropertyName("datacronStatus")]
     public List<TerritoryPlayerDatacronStatus> DatacronStatus { get; set; }
-
 }

@@ -21,5 +21,4 @@ public class TerritoryZoneStatus
 
     [JsonPropertyName("commandState")]
     public TerritoryZoneCommandState CommandState { get; set; }
-
 }

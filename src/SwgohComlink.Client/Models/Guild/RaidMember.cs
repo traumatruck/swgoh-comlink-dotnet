@@ -15,5 +15,4 @@ public class RaidMember
 
     [JsonPropertyName("memberAttempt")]
     public int? MemberAttempt { get; set; }
-
 }

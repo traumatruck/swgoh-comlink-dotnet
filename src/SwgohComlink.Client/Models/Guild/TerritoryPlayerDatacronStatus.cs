@@ -9,5 +9,4 @@ public class TerritoryPlayerDatacronStatus
 
     [JsonPropertyName("deployedZoneId")]
     public string? DeployedZoneId { get; set; }
-
 }

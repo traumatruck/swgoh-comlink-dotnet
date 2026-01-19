@@ -12,5 +12,4 @@ public class UnitTierSummary
 
     [JsonPropertyName("unitRelicTier")]
     public RelicTier UnitRelicTier { get; set; }
-
 }

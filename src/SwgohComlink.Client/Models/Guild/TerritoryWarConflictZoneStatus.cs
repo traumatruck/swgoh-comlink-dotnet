@@ -18,5 +18,4 @@ public class TerritoryWarConflictZoneStatus
 
     [JsonPropertyName("defeatedSquadCount")]
     public int? DefeatedSquadCount { get; set; }
-
 }

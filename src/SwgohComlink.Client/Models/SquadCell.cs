@@ -42,5 +42,4 @@ public class SquadCell
 
     [JsonPropertyName("forcedUnitEraLevel")]
     public int? ForcedUnitEraLevel { get; set; }
-
 }

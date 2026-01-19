@@ -21,5 +21,4 @@ public class RequirementItem
 
     [JsonPropertyName("rosterUnitType")]
     public RosterUnitType RosterUnitType { get; set; }
-
 }

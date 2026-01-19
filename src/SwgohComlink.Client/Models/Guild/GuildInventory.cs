@@ -9,5 +9,4 @@ public class GuildInventory
 
     [JsonPropertyName("currentDailyLimit")]
     public List<CurrencyItem> CurrentDailyLimit { get; set; }
-
 }

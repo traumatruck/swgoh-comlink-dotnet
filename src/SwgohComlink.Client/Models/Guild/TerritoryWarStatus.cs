@@ -48,5 +48,4 @@ public class TerritoryWarStatus
 
     [JsonPropertyName("mapCompletedEarly")]
     public bool? MapCompletedEarly { get; set; }
-
 }

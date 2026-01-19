@@ -18,5 +18,4 @@ public class CharacterDialog
 
     [JsonPropertyName("useHologramEffect")]
     public bool? UseHologramEffect { get; set; }
-
 }

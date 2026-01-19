@@ -6,5 +6,4 @@ public class GetGuildResponse
 {
     [JsonPropertyName("guild")]
     public Guild Guild { get; set; }
-
 }

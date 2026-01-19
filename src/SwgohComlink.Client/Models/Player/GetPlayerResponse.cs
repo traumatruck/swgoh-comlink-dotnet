@@ -78,5 +78,4 @@ public class GetPlayerResponse
 
     [JsonPropertyName("eraUnitStatus")]
     public List<EraUnitStatus> EraUnitStatus { get; set; }
-
 }

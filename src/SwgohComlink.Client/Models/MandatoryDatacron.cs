@@ -12,5 +12,4 @@ public class MandatoryDatacron
 
     [JsonPropertyName("templateId")]
     public string? TemplateId { get; set; }
-
 }

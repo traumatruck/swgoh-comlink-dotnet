@@ -4,5 +4,6 @@ namespace SwgohComlink.Client.Models.Guild;
 
 public class GetGuildLeaderboardResponse
 {
-    [JsonPropertyName("leaderboard")] public List<GuildLeaderboard> Leaderboard { get; set; }
+    [JsonPropertyName("leaderboard")]
+    public List<GuildLeaderboard> Leaderboard { get; set; }
 }

@@ -81,5 +81,4 @@ public class GuildRaidStatus
 
     [JsonPropertyName("exhaustedDatacronId")]
     public List<string?> ExhaustedDatacronId { get; set; }
-
 }

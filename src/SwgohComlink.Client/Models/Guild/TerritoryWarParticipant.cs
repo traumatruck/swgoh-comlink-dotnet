@@ -15,5 +15,4 @@ public class TerritoryWarParticipant
 
     [JsonPropertyName("power")]
     public int? Power { get; set; }
-
 }

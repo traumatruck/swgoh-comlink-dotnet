@@ -6,5 +6,4 @@ public class Relic
 {
     [JsonPropertyName("currentTier")]
     public RelicTier CurrentTier { get; set; }
-
 }

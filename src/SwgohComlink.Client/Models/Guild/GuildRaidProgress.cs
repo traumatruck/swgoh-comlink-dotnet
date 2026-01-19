@@ -12,5 +12,4 @@ public class GuildRaidProgress
 
     [JsonPropertyName("winCount")]
     public int? WinCount { get; set; }
-
 }

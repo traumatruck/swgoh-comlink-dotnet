@@ -18,5 +18,4 @@ public class CampaignElementIdentifier
 
     [JsonPropertyName("campaignMissionId")]
     public string? CampaignMissionId { get; set; }
-
 }

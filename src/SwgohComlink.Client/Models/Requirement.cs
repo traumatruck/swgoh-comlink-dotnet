@@ -15,5 +15,4 @@ public class Requirement
 
     [JsonPropertyName("descKey")]
     public string? DescKey { get; set; }
-
 }

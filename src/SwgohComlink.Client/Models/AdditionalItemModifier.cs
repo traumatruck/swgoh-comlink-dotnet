@@ -6,5 +6,4 @@ public class AdditionalItemModifier
 {
     [JsonPropertyName("addedItem")]
     public List<BucketItem> AddedItem { get; set; }
-
 }

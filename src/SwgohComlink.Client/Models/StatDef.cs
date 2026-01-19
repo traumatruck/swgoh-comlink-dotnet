@@ -6,5 +6,4 @@ public class StatDef
 {
     [JsonPropertyName("stat")]
     public List<Stat> Stat { get; set; }
-
 }

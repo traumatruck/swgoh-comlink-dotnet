@@ -45,5 +45,4 @@ public class StatMod
 
     [JsonPropertyName("rerolledCount")]
     public int? RerolledCount { get; set; }
-
 }

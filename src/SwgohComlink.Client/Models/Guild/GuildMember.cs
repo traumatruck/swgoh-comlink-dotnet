@@ -57,5 +57,4 @@ public class GuildMember
 
     [JsonPropertyName("nucleusId")]
     public string? NucleusId { get; set; }
-
 }

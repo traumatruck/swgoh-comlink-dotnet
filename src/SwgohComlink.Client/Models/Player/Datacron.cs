@@ -33,5 +33,4 @@ public class Datacron
 
     [JsonPropertyName("focused")]
     public bool? Focused { get; set; }
-
 }

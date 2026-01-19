@@ -6,5 +6,4 @@ public class PlayerSkillRating
 {
     [JsonPropertyName("skillRating")]
     public int? SkillRating { get; set; }
-
 }

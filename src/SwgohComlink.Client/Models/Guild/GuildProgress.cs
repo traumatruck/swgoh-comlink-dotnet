@@ -6,5 +6,4 @@ public class GuildProgress
 {
     [JsonPropertyName("raidProgress")]
     public List<GuildRaidProgress> RaidProgress { get; set; }
-
 }

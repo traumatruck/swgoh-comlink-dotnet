@@ -54,5 +54,4 @@ public class Guild
 
     [JsonPropertyName("lastRaidPointsSummary")]
     public List<GuildRaidPointsSummary> LastRaidPointsSummary { get; set; }
-
 }

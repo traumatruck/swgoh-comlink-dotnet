@@ -9,5 +9,4 @@ public class TerritoryReconZoneStatus
 
     [JsonPropertyName("platoon")]
     public List<TerritoryReconZonePlatoon> Platoon { get; set; }
-
 }

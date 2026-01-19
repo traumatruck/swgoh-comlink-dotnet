@@ -75,5 +75,4 @@ public class EntryCategoryAllowed
 
     [JsonPropertyName("minimumEraLevel")]
     public int? MinimumEraLevel { get; set; }
-
 }

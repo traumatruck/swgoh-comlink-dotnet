@@ -12,5 +12,4 @@ public class GuildMemberContribution
 
     [JsonPropertyName("lifetimeValue")]
     public long? LifetimeValue { get; set; }
-
 }
