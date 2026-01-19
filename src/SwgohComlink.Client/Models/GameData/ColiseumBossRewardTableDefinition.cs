@@ -12,5 +12,4 @@ public class ColiseumBossRewardTableDefinition
 
     [JsonPropertyName("bossProgressionRewardPreview")]
     public List<RankRewardPreview> BossProgressionRewardPreview { get; set; }
-
 }

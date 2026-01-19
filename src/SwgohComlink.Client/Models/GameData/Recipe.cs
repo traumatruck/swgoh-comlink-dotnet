@@ -30,5 +30,4 @@ public class Recipe
 
     [JsonPropertyName("requiredEraLevel")]
     public int? RequiredEraLevel { get; set; }
-
 }

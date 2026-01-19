@@ -6,5 +6,4 @@ public class GetEventsResponse
 {
     [JsonPropertyName("gameEvent")]
     public List<GameEvent> GameEvent { get; set; }
-
 }

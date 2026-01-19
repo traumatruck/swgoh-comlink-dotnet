@@ -15,5 +15,4 @@ public class ArtifactTierDefinition
 
     [JsonPropertyName("iconKey")]
     public string? IconKey { get; set; }
-
 }

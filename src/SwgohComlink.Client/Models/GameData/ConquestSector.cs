@@ -24,5 +24,4 @@ public class ConquestSector
 
     [JsonPropertyName("backgroundPrefabName")]
     public string? BackgroundPrefabName { get; set; }
-
 }

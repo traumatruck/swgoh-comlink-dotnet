@@ -9,5 +9,4 @@ public class GuildRaidGlobalConfig
 
     [JsonPropertyName("lateEntryParticipationLockoutSeconds")]
     public long? LateEntryParticipationLockoutSeconds { get; set; }
-
 }

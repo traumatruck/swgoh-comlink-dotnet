@@ -9,5 +9,4 @@ public class RepeatableMilestone
 
     [JsonPropertyName("reward")]
     public BucketItem Reward { get; set; }
-
 }

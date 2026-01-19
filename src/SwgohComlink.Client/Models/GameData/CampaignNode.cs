@@ -51,5 +51,4 @@ public class CampaignNode
 
     [JsonPropertyName("firstTimeFinishCost")]
     public List<BucketItem> FirstTimeFinishCost { get; set; }
-
 }

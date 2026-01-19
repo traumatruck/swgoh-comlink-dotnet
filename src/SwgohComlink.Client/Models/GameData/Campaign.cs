@@ -36,5 +36,4 @@ public class Campaign
 
     [JsonPropertyName("grindEnabled")]
     public bool? GrindEnabled { get; set; }
-
 }

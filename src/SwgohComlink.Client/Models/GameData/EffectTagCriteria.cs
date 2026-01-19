@@ -9,5 +9,4 @@ public class EffectTagCriteria
 
     [JsonPropertyName("exclude")]
     public bool? Exclude { get; set; }
-
 }

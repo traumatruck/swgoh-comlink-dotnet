@@ -9,5 +9,4 @@ public class UnitModRecommendation
 
     [JsonPropertyName("unitTier")]
     public UnitTier UnitTier { get; set; }
-
 }

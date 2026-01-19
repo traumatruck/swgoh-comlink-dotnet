@@ -24,5 +24,4 @@ public class AbilityTier
 
     [JsonPropertyName("blockedLocKey")]
     public string? BlockedLocKey { get; set; }
-
 }

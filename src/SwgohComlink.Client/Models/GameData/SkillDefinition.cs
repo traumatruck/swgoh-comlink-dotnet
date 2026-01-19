@@ -27,5 +27,4 @@ public class SkillDefinition
 
     [JsonPropertyName("omicronMode")]
     public OmicronMode OmicronMode { get; set; }
-
 }

@@ -9,5 +9,4 @@ public class SocialStatusIcon
 
     [JsonPropertyName("texture")]
     public string? Texture { get; set; }
-
 }

@@ -9,5 +9,4 @@ public class HelpEntry
 
     [JsonPropertyName("tile")]
     public List<HelpTile> Tile { get; set; }
-
 }

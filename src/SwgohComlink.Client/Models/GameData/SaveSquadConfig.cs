@@ -12,5 +12,4 @@ public class SaveSquadConfig
 
     [JsonPropertyName("tournamentMapDefinitionId")]
     public string? TournamentMapDefinitionId { get; set; }
-
 }

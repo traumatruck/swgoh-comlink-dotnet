@@ -15,5 +15,4 @@ public class CalendarCategoryDefinition
 
     [JsonPropertyName("textKey")]
     public string? TextKey { get; set; }
-
 }

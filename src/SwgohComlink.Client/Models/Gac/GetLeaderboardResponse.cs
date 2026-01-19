@@ -12,5 +12,4 @@ public class GetLeaderboardResponse
 
     [JsonPropertyName("leaderboard")]
     public List<LeaderboardData> Leaderboard { get; set; }
-
 }

@@ -15,5 +15,4 @@ public class AbilityModifierData
 
     [JsonPropertyName("icon")]
     public string? Icon { get; set; }
-
 }

@@ -12,5 +12,4 @@ public class GalacticBundleTab
 
     [JsonPropertyName("text")]
     public string? Text { get; set; }
-
 }

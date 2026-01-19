@@ -9,5 +9,4 @@ public class BattleEnvironment
 
     [JsonPropertyName("audioPackage")]
     public List<string?> AudioPackage { get; set; }
-
 }

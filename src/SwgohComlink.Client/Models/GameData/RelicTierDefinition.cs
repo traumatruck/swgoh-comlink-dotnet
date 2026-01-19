@@ -15,5 +15,4 @@ public class RelicTierDefinition
 
     [JsonPropertyName("tier")]
     public RelicTier Tier { get; set; }
-
 }

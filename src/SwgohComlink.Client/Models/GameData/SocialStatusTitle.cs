@@ -9,5 +9,4 @@ public class SocialStatusTitle
 
     [JsonPropertyName("playerTitleId")]
     public string? PlayerTitleId { get; set; }
-
 }

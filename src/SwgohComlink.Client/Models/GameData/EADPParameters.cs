@@ -42,5 +42,4 @@ public class EADPParameters
 
     [JsonPropertyName("eadpWindowsAchievementCode")]
     public string? EadpWindowsAchievementCode { get; set; }
-
 }

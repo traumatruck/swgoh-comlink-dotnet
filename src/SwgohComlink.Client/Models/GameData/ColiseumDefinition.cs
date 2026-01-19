@@ -15,5 +15,4 @@ public class ColiseumDefinition
 
     [JsonPropertyName("bossSchedule")]
     public List<ColiseumBossSchedule> BossSchedule { get; set; }
-
 }

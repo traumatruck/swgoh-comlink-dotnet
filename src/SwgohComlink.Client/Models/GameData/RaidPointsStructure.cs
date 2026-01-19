@@ -9,5 +9,4 @@ public class RaidPointsStructure
 
     [JsonPropertyName("modifier")]
     public List<RaidModifier> Modifier { get; set; }
-
 }

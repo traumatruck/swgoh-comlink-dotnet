@@ -24,5 +24,4 @@ public class ConquestMission
 
     [JsonPropertyName("recommendationKey")]
     public string? RecommendationKey { get; set; }
-
 }

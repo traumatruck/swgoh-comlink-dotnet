@@ -33,5 +33,4 @@ public class MissionGrantedAbility
 
     [JsonPropertyName("conditionDescKey")]
     public string? ConditionDescKey { get; set; }
-
 }

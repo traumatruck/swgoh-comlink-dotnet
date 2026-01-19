@@ -147,5 +147,4 @@ public class Effect
 
     [JsonPropertyName("summonEraLevel")]
     public int? SummonEraLevel { get; set; }
-
 }

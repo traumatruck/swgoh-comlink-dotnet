@@ -249,5 +249,4 @@ public class GetGameDataResponse
 
     [JsonPropertyName("eraDefinition")]
     public List<EraDefinition> EraDefinition { get; set; }
-
 }

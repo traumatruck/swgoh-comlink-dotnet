@@ -18,5 +18,4 @@ public class SeasonLeagueReference
 
     [JsonPropertyName("promoteConditionTable")]
     public string? PromoteConditionTable { get; set; }
-
 }

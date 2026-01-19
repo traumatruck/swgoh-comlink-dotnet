@@ -12,5 +12,4 @@ public class TerritoryTournamentDivisionDefinition
 
     [JsonPropertyName("icon")]
     public string? Icon { get; set; }
-
 }

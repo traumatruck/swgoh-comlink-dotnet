@@ -9,5 +9,4 @@ public class Cooldown
 
     [JsonPropertyName("refreshCost")]
     public BucketItem RefreshCost { get; set; }
-
 }

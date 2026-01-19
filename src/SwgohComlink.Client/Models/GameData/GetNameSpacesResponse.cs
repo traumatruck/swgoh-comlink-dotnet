@@ -6,5 +6,4 @@ public class GetNameSpacesResponse
 {
     [JsonPropertyName("nameSpace")]
     public List<string?> NameSpaceValue { get; set; }
-
 }

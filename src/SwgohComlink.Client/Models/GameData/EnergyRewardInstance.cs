@@ -15,5 +15,4 @@ public class EnergyRewardInstance
 
     [JsonPropertyName("amount")]
     public int? Amount { get; set; }
-
 }

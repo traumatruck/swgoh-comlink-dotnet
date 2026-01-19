@@ -12,5 +12,4 @@ public class SeasonDivisionSkillBoundary
 
     [JsonPropertyName("minSkill")]
     public int? MinSkill { get; set; }
-
 }

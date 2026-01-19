@@ -24,5 +24,4 @@ public class RaidModifier
 
     [JsonPropertyName("overrideRelicTier")]
     public RelicTier OverrideRelicTier { get; set; }
-
 }

@@ -12,5 +12,4 @@ public class EventSampling
 
     [JsonPropertyName("nonSpenderValue")]
     public int? NonSpenderValue { get; set; }
-
 }

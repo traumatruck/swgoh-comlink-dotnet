@@ -9,5 +9,4 @@ public class ConfigEntry
 
     [JsonPropertyName("value")]
     public string? Value { get; set; }
-
 }

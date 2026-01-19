@@ -12,5 +12,4 @@ public class LeagueDivisionRewardPreview
 
     [JsonPropertyName("detailedReward")]
     public List<BucketItem> DetailedReward { get; set; }
-
 }

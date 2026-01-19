@@ -9,5 +9,4 @@ public class AbilityDecisionTree
 
     [JsonPropertyName("abilityDecisionNode")]
     public List<AbilityDecisionNode> AbilityDecisionNode { get; set; }
-
 }

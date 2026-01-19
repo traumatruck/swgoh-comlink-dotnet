@@ -21,5 +21,4 @@ public class PlayerPortraitDefinition
 
     [JsonPropertyName("icon")]
     public string? Icon { get; set; }
-
 }

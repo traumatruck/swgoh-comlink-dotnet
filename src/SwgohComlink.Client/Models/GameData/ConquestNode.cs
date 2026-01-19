@@ -30,5 +30,4 @@ public class ConquestNode
 
     [JsonPropertyName("finishSector")]
     public bool? FinishSector { get; set; }
-
 }

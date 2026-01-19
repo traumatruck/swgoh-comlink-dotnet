@@ -39,5 +39,4 @@ public class AbilityReference
 
     [JsonPropertyName("inheritMappingId")]
     public string? InheritMappingId { get; set; }
-
 }

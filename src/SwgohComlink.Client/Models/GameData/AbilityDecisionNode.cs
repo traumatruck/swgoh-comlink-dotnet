@@ -27,5 +27,4 @@ public class AbilityDecisionNode
 
     [JsonPropertyName("decisionResult")]
     public AbilityDecisionResult DecisionResult { get; set; }
-
 }

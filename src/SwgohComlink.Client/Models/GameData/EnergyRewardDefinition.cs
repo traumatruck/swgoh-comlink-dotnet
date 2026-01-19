@@ -24,5 +24,4 @@ public class EnergyRewardDefinition
 
     [JsonPropertyName("showRequirement")]
     public Requirement ShowRequirement { get; set; }
-
 }

@@ -12,5 +12,4 @@ public class TerritoryTournamentConflictZoneDefinition
 
     [JsonPropertyName("zoneDefinition")]
     public TerritoryZoneDefinition ZoneDefinition { get; set; }
-
 }

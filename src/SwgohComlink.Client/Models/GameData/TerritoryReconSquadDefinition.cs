@@ -9,5 +9,4 @@ public class TerritoryReconSquadDefinition
 
     [JsonPropertyName("nameKey")]
     public string? NameKey { get; set; }
-
 }

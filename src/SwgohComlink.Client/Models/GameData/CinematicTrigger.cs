@@ -6,5 +6,4 @@ public class CinematicTrigger
 {
     [JsonPropertyName("triggerCondition")]
     public string? TriggerCondition { get; set; }
-
 }

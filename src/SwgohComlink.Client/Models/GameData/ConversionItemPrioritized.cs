@@ -9,5 +9,4 @@ public class ConversionItemPrioritized
 
     [JsonPropertyName("priority")]
     public int? Priority { get; set; }
-
 }

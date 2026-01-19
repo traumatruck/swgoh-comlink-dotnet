@@ -27,5 +27,4 @@ public class DatacronSet
 
     [JsonPropertyName("focusedTier")]
     public List<DatacronSetTier> FocusedTier { get; set; }
-
 }

@@ -18,5 +18,4 @@ public class ChallengeTask
 
     [JsonPropertyName("hideToast")]
     public bool? HideToast { get; set; }
-
 }

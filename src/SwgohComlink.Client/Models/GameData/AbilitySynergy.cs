@@ -9,5 +9,4 @@ public class AbilitySynergy
 
     [JsonPropertyName("groupedCategoryId")]
     public List<string?> GroupedCategoryId { get; set; }
-
 }

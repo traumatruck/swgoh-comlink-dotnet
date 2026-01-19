@@ -18,5 +18,4 @@ public class TerritoryCovertZoneDefinition
 
     [JsonPropertyName("combatType")]
     public CombatType CombatType { get; set; }
-
 }

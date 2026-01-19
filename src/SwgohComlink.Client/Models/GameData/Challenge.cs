@@ -87,5 +87,4 @@ public class Challenge
 
     [JsonPropertyName("descParameterKey")]
     public List<string?> DescParameterKey { get; set; }
-
 }

@@ -42,5 +42,4 @@ public class TerritoryWarConflictZoneDefinition
 
     [JsonPropertyName("pointStructure")]
     public TerritoryWarPointStructure PointStructure { get; set; }
-
 }

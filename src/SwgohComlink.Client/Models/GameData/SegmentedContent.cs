@@ -6,5 +6,4 @@ public class SegmentedContent
 {
     [JsonPropertyName("segments")]
     public List<ContentSegment> Segments { get; set; }
-
 }

@@ -45,5 +45,4 @@ public class ConsumableDefinition
 
     [JsonPropertyName("energyRegenTimeReduction")]
     public int? EnergyRegenTimeReduction { get; set; }
-
 }

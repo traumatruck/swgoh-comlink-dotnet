@@ -12,5 +12,4 @@ public class Position
 
     [JsonPropertyName("z")]
     public string? Z { get; set; }
-
 }

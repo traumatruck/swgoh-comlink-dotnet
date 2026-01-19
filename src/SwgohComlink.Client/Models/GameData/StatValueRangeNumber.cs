@@ -9,5 +9,4 @@ public class StatValueRangeNumber
 
     [JsonPropertyName("inclusive")]
     public bool? Inclusive { get; set; }
-
 }

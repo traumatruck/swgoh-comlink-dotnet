@@ -9,5 +9,4 @@ public class StatModSetBonus
 
     [JsonPropertyName("stat")]
     public Stat Stat { get; set; }
-
 }

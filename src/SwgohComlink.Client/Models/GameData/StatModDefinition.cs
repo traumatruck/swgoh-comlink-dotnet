@@ -51,5 +51,4 @@ public class StatModDefinition
 
     [JsonPropertyName("raidImmediateLookup")]
     public List<LookupMission> RaidImmediateLookup { get; set; }
-
 }

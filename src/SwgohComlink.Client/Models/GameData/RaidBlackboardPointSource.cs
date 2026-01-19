@@ -9,5 +9,4 @@ public class RaidBlackboardPointSource
 
     [JsonPropertyName("locKey")]
     public string? LocKey { get; set; }
-
 }

@@ -15,5 +15,4 @@ public class GuildBannerColorDef
 
     [JsonPropertyName("hidden")]
     public bool? Hidden { get; set; }
-
 }

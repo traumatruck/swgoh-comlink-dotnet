@@ -9,5 +9,4 @@ public class DatacronAffixTemplateSet
 
     [JsonPropertyName("affix")]
     public List<DatacronAffixTemplate> Affix { get; set; }
-
 }

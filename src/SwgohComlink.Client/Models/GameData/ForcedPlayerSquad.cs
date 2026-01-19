@@ -9,5 +9,4 @@ public class ForcedPlayerSquad
 
     [JsonPropertyName("squadUnit")]
     public List<Unit> SquadUnit { get; set; }
-
 }

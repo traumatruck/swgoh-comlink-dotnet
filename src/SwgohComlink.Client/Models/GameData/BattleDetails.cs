@@ -36,5 +36,4 @@ public class BattleDetails
 
     [JsonPropertyName("pveDatacronAllowed")]
     public bool? PveDatacronAllowed { get; set; }
-
 }

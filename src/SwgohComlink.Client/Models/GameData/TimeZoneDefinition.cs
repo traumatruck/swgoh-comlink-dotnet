@@ -9,5 +9,4 @@ public class TimeZoneDefinition
 
     [JsonPropertyName("primary")]
     public bool? Primary { get; set; }
-
 }

@@ -12,5 +12,4 @@ public class TargetingWeight
 
     [JsonPropertyName("valueDecimal")]
     public int? ValueDecimal { get; set; }
-
 }

@@ -12,5 +12,4 @@ public class ConversionSet
 
     [JsonPropertyName("surplus")]
     public ConversionItem Surplus { get; set; }
-
 }

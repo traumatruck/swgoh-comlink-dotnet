@@ -15,5 +15,4 @@ public class PersistentVfx
 
     [JsonPropertyName("lineOverride")]
     public string? LineOverride { get; set; }
-
 }

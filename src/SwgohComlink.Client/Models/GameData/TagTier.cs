@@ -9,5 +9,4 @@ public class TagTier
 
     [JsonPropertyName("tier")]
     public int? Tier { get; set; }
-
 }

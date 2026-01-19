@@ -12,5 +12,4 @@ public class GuildRaidSim
 
     [JsonPropertyName("requirementId")]
     public string? RequirementId { get; set; }
-
 }

@@ -12,5 +12,4 @@ public class GuildBannerDef
 
     [JsonPropertyName("logoDefinition")]
     public List<GuildBannerLogoDef> LogoDefinition { get; set; }
-
 }

@@ -30,5 +30,4 @@ public class TerritoryTournamentDuelZoneDefinition
 
     [JsonPropertyName("saveSquadZoneNumber")]
     public int? SaveSquadZoneNumber { get; set; }
-
 }

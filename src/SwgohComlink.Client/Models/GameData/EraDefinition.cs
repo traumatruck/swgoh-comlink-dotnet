@@ -72,5 +72,4 @@ public class EraDefinition
 
     [JsonPropertyName("missingJourneyUnit")]
     public bool? MissingJourneyUnit { get; set; }
-
 }

@@ -24,5 +24,4 @@ public class TerritoryLocalNote
 
     [JsonPropertyName("perSubPhaseRoundEnd")]
     public bool? PerSubPhaseRoundEnd { get; set; }
-
 }

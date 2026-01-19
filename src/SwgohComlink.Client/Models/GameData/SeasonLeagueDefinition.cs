@@ -21,5 +21,4 @@ public class SeasonLeagueDefinition
 
     [JsonPropertyName("portraitFrame")]
     public string? PortraitFrame { get; set; }
-
 }

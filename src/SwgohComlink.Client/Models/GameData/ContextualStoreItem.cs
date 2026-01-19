@@ -9,5 +9,4 @@ public class ContextualStoreItem
 
     [JsonPropertyName("storeItemId")]
     public List<string?> StoreItemId { get; set; }
-
 }

@@ -6,5 +6,4 @@ public class SeasonDivisionReference
 {
     [JsonPropertyName("id")]
     public int? Id { get; set; }
-
 }

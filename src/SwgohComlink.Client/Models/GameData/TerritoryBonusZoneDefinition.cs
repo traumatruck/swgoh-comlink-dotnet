@@ -9,5 +9,4 @@ public class TerritoryBonusZoneDefinition
 
     [JsonPropertyName("linkedBonusConflictId")]
     public string? LinkedBonusConflictId { get; set; }
-
 }

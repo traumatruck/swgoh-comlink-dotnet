@@ -12,5 +12,4 @@ public class StatProgression
 
     [JsonPropertyName("operation")]
     public OperationType Operation { get; set; }
-
 }

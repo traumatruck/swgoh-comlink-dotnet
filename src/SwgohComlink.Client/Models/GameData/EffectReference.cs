@@ -12,5 +12,4 @@ public class EffectReference
 
     [JsonPropertyName("maxBonusMove")]
     public int? MaxBonusMove { get; set; }
-
 }

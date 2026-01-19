@@ -9,5 +9,4 @@ public class TerritoryMapStatCategory
 
     [JsonPropertyName("nameKey")]
     public string? NameKey { get; set; }
-
 }

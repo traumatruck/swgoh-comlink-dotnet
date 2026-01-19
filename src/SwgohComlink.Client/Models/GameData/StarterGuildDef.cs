@@ -30,5 +30,4 @@ public class StarterGuildDef
 
     [JsonPropertyName("subNameKey")]
     public string? SubNameKey { get; set; }
-
 }

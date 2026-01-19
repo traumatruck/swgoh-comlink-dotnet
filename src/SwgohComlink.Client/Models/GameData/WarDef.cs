@@ -21,5 +21,4 @@ public class WarDef
 
     [JsonPropertyName("bracket")]
     public List<WarBracketDef> Bracket { get; set; }
-
 }

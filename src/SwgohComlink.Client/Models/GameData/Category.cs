@@ -15,5 +15,4 @@ public class Category
 
     [JsonPropertyName("uiFilter")]
     public List<CombatType> UiFilter { get; set; }
-
 }

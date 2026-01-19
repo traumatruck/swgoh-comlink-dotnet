@@ -24,5 +24,4 @@ public class TerritoryTournamentLeagueDefinition
 
     [JsonPropertyName("blankIcon")]
     public string? BlankIcon { get; set; }
-
 }

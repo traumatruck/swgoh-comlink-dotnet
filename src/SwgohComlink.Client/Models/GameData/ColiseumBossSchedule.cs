@@ -18,5 +18,4 @@ public class ColiseumBossSchedule
 
     [JsonPropertyName("eraDayIndex")]
     public int? EraDayIndex { get; set; }
-
 }

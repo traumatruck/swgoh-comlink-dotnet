@@ -21,5 +21,4 @@ public class GalacticBundleMainElement
 
     [JsonPropertyName("inventoryType")]
     public GalacticBundleMainElementInventoryType InventoryType { get; set; }
-
 }

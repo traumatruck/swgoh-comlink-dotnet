@@ -18,5 +18,4 @@ public class ModRecommendation
 
     [JsonPropertyName("tipKey")]
     public string? TipKey { get; set; }
-
 }

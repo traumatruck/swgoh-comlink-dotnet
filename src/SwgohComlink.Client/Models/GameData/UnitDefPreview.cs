@@ -21,5 +21,4 @@ public class UnitDefPreview
 
     [JsonPropertyName("uniqueAbilityRef")]
     public List<AbilityReference> UniqueAbilityRef { get; set; }
-
 }

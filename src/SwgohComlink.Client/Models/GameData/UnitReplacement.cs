@@ -9,5 +9,4 @@ public class UnitReplacement
 
     [JsonPropertyName("replacementUnitId")]
     public string? ReplacementUnitId { get; set; }
-
 }

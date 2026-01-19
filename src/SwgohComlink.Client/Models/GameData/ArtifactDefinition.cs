@@ -27,5 +27,4 @@ public class ArtifactDefinition
 
     [JsonPropertyName("tierId")]
     public string? TierId { get; set; }
-
 }

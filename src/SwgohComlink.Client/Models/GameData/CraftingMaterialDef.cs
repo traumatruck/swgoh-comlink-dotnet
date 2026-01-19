@@ -57,5 +57,4 @@ public class CraftingMaterialDef
 
     [JsonPropertyName("raidImmediateLookup")]
     public List<LookupMission> RaidImmediateLookup { get; set; }
-
 }

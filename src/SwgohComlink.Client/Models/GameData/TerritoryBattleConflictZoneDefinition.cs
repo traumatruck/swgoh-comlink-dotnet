@@ -36,5 +36,4 @@ public class TerritoryBattleConflictZoneDefinition
 
     [JsonPropertyName("flipChaseIconY")]
     public bool? FlipChaseIconY { get; set; }
-
 }

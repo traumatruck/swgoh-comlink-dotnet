@@ -15,5 +15,4 @@ public class DailyActionCap
 
     [JsonPropertyName("unlimitedPurchases")]
     public bool? UnlimitedPurchases { get; set; }
-
 }

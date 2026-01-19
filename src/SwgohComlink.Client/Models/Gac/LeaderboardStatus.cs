@@ -18,5 +18,4 @@ public class LeaderboardStatus
 
     [JsonPropertyName("tier")]
     public int? Tier { get; set; }
-
 }

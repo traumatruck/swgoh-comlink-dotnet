@@ -9,5 +9,4 @@ public class MessageDialog
 
     [JsonPropertyName("descKey")]
     public string? DescKey { get; set; }
-
 }

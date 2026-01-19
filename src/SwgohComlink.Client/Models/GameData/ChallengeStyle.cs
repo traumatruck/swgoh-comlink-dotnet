@@ -27,5 +27,4 @@ public class ChallengeStyle
 
     [JsonPropertyName("questTitleKey")]
     public string? QuestTitleKey { get; set; }
-
 }

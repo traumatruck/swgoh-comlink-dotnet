@@ -15,5 +15,4 @@ public class TerritoryTournamentDailyRewardTableRow
 
     [JsonPropertyName("detailedReward")]
     public List<BucketItem> DetailedReward { get; set; }
-
 }

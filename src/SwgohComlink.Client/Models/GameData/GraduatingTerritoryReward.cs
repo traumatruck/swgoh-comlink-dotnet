@@ -9,5 +9,4 @@ public class GraduatingTerritoryReward
 
     [JsonPropertyName("reward")]
     public TerritoryReward Reward { get; set; }
-
 }

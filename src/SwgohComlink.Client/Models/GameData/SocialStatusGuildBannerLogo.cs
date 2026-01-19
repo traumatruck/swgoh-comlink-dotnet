@@ -9,5 +9,4 @@ public class SocialStatusGuildBannerLogo
 
     [JsonPropertyName("guildBannerLogoId")]
     public string? GuildBannerLogoId { get; set; }
-
 }

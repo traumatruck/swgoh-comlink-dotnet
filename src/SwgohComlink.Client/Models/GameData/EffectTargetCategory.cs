@@ -9,5 +9,4 @@ public class EffectTargetCategory
 
     [JsonPropertyName("categoryId")]
     public string? CategoryId { get; set; }
-
 }

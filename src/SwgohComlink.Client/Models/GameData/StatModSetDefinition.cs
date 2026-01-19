@@ -24,5 +24,4 @@ public class StatModSetDefinition
 
     [JsonPropertyName("overclockBonus")]
     public StatModSetBonus OverclockBonus { get; set; }
-
 }

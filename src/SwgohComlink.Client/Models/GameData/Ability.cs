@@ -99,5 +99,4 @@ public class Ability
 
     [JsonPropertyName("visualTarget")]
     public EffectTarget VisualTarget { get; set; }
-
 }

@@ -9,5 +9,4 @@ public class XpTableRow
 
     [JsonPropertyName("xp")]
     public int? Xp { get; set; }
-
 }

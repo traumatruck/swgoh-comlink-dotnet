@@ -75,5 +75,4 @@ public class UnitGuideDefinition
 
     [JsonPropertyName("unitStagePrefab")]
     public string? UnitStagePrefab { get; set; }
-
 }

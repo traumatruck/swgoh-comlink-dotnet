@@ -15,5 +15,4 @@ public class RaidAbilityOverride
 
     [JsonPropertyName("icon")]
     public string? Icon { get; set; }
-
 }

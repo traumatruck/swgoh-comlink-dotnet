@@ -6,5 +6,4 @@ public class GuildExchangeItem
 {
     [JsonPropertyName("item")]
     public BucketItem Item { get; set; }
-
 }

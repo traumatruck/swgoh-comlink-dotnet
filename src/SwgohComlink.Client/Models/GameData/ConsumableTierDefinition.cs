@@ -18,5 +18,4 @@ public class ConsumableTierDefinition
 
     [JsonPropertyName("effectIconFrameKey")]
     public string? EffectIconFrameKey { get; set; }
-
 }

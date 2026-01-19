@@ -51,5 +51,4 @@ public class CampaignMissionEnemyPreview
 
     [JsonPropertyName("eraThumbnailName")]
     public string? EraThumbnailName { get; set; }
-
 }

@@ -90,5 +90,4 @@ public class TerritoryBattleDefinition
 
     [JsonPropertyName("bonusZoneDefinition")]
     public List<TerritoryBonusZoneDefinition> BonusZoneDefinition { get; set; }
-
 }

@@ -54,5 +54,4 @@ public class EpisodeDefinition
 
     [JsonPropertyName("introQuestBlock")]
     public List<QuestBlockDefinition> IntroQuestBlock { get; set; }
-
 }

@@ -183,5 +183,4 @@ public class CampaignNodeMission
 
     [JsonPropertyName("recommendedEraLevel")]
     public int? RecommendedEraLevel { get; set; }
-
 }

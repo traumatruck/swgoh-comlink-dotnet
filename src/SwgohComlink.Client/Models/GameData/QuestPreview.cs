@@ -9,5 +9,4 @@ public class QuestPreview
 
     [JsonPropertyName("unlockTime")]
     public long? UnlockTime { get; set; }
-
 }

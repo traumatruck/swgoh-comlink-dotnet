@@ -18,5 +18,4 @@ public class ContentSegmentFile
 
     [JsonPropertyName("size")]
     public int? Size { get; set; }
-
 }

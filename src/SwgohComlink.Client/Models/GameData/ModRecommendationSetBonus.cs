@@ -9,5 +9,4 @@ public class ModRecommendationSetBonus
 
     [JsonPropertyName("quantity")]
     public int? Quantity { get; set; }
-
 }

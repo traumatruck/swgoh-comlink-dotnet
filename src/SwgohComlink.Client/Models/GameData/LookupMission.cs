@@ -9,5 +9,4 @@ public class LookupMission
 
     [JsonPropertyName("requirementId")]
     public List<string?> RequirementId { get; set; }
-
 }

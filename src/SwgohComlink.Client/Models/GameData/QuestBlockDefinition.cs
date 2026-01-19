@@ -18,5 +18,4 @@ public class QuestBlockDefinition
 
     [JsonPropertyName("headlineQuestCompleteRequirement")]
     public int? HeadlineQuestCompleteRequirement { get; set; }
-
 }

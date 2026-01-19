@@ -30,5 +30,4 @@ public class MysteryBoxDefinition
 
     [JsonPropertyName("showPrimaryRewards")]
     public bool? ShowPrimaryRewards { get; set; }
-
 }

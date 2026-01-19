@@ -9,5 +9,4 @@ public class CalendarVisuals
 
     [JsonPropertyName("button")]
     public string? Button { get; set; }
-
 }

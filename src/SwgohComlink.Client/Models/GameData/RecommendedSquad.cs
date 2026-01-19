@@ -27,5 +27,4 @@ public class RecommendedSquad
 
     [JsonPropertyName("id")]
     public string? Id { get; set; }
-
 }

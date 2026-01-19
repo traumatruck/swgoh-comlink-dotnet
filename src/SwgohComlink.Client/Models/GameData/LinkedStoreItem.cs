@@ -15,5 +15,4 @@ public class LinkedStoreItem
 
     [JsonPropertyName("contextualStoreItem")]
     public List<ContextualStoreItem> ContextualStoreItem { get; set; }
-
 }

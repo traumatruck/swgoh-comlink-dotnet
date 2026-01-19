@@ -21,5 +21,4 @@ public class TimeZoneChangeConfig
 
     [JsonPropertyName("timeZoneChangeCooldownId")]
     public string? TimeZoneChangeCooldownId { get; set; }
-
 }

@@ -45,5 +45,4 @@ public class EffectTarget
 
     [JsonPropertyName("requiredActiveEffectTagCriteria")]
     public List<EffectTagCriteria> RequiredActiveEffectTagCriteria { get; set; }
-
 }

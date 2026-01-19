@@ -12,5 +12,4 @@ public class LeaderboardData
 
     [JsonPropertyName("playerStatus")]
     public LeaderboardStatus PlayerStatus { get; set; }
-
 }

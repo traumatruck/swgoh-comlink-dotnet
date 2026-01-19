@@ -12,5 +12,4 @@ public class HelpTile
 
     [JsonPropertyName("titleKey")]
     public string? TitleKey { get; set; }
-
 }

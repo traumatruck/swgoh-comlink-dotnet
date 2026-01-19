@@ -15,5 +15,4 @@ public class DynamicDescriptionTextColumn
 
     [JsonPropertyName("tag")]
     public string? Tag { get; set; }
-
 }

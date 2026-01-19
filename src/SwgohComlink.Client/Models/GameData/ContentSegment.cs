@@ -9,5 +9,4 @@ public class ContentSegment
 
     [JsonPropertyName("files")]
     public List<ContentSegmentFile> Files { get; set; }
-
 }

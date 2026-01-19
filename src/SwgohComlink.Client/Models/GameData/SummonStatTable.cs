@@ -9,5 +9,4 @@ public class SummonStatTable
 
     [JsonPropertyName("statTable")]
     public string? StatTable { get; set; }
-
 }

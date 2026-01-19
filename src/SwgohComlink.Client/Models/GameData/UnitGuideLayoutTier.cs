@@ -12,5 +12,4 @@ public class UnitGuideLayoutTier
 
     [JsonPropertyName("layoutLine")]
     public List<UnitGuideLayoutLine> LayoutLine { get; set; }
-
 }

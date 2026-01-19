@@ -60,5 +60,4 @@ public class GuildRaid
 
     [JsonPropertyName("audioDefeatKey")]
     public string? AudioDefeatKey { get; set; }
-
 }

@@ -9,5 +9,4 @@ public class TargetedStat
 
     [JsonPropertyName("targetRuleId")]
     public string? TargetRuleId { get; set; }
-
 }

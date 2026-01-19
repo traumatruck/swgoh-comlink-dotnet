@@ -15,5 +15,4 @@ public class GuildBannerLogoDef
 
     [JsonPropertyName("hidden")]
     public bool? Hidden { get; set; }
-
 }

@@ -9,5 +9,4 @@ public class LookupActionLink
 
     [JsonPropertyName("actionLink")]
     public ActionLink ActionLink { get; set; }
-
 }

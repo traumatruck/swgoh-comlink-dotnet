@@ -12,5 +12,4 @@ public class ConquestPurchasePassMiscTextEntry
 
     [JsonPropertyName("type")]
     public ConquestPurchasePassMiscTextEntryType Type { get; set; }
-
 }

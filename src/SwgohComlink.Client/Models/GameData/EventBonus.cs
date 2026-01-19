@@ -18,5 +18,4 @@ public class EventBonus
 
     [JsonPropertyName("scoreModifier")]
     public double? ScoreModifier { get; set; }
-
 }

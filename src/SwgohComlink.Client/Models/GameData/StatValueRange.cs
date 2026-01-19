@@ -15,5 +15,4 @@ public class StatValueRange
 
     [JsonPropertyName("max")]
     public StatValueRangeNumber Max { get; set; }
-
 }

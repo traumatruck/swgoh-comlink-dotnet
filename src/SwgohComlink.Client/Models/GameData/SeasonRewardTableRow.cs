@@ -12,5 +12,4 @@ public class SeasonRewardTableRow
 
     [JsonPropertyName("detailedReward")]
     public List<BucketItem> DetailedReward { get; set; }
-
 }

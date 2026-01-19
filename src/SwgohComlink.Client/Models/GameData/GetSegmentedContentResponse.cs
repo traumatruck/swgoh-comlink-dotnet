@@ -6,5 +6,4 @@ public class GetSegmentedContentResponse
 {
     [JsonPropertyName("content")]
     public SegmentedContent Content { get; set; }
-
 }

@@ -9,5 +9,4 @@ public class GuildRaidLockout
 
     [JsonPropertyName("lockoutEndTime")]
     public long? LockoutEndTime { get; set; }
-
 }

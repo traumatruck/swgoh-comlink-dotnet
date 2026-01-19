@@ -24,5 +24,4 @@ public class GalacticBundle
 
     [JsonPropertyName("primaryGalacticBundle")]
     public bool? PrimaryGalacticBundle { get; set; }
-
 }

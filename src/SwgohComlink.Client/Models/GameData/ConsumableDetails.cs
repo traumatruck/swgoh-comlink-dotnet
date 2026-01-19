@@ -9,5 +9,4 @@ public class ConsumableDetails
 
     [JsonPropertyName("maxCount")]
     public int? MaxCount { get; set; }
-
 }

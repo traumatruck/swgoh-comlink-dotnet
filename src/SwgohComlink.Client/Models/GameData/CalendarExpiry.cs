@@ -12,5 +12,4 @@ public class CalendarExpiry
 
     [JsonPropertyName("expiryRequirement")]
     public Requirement ExpiryRequirement { get; set; }
-
 }

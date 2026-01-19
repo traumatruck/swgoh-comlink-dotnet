@@ -18,5 +18,4 @@ public class GuildRaidConfig
 
     [JsonPropertyName("raidDuration")]
     public long? RaidDuration { get; set; }
-
 }

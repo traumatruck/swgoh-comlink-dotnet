@@ -33,5 +33,4 @@ public class CampaignMap
 
     [JsonPropertyName("gameModeKey")]
     public string? GameModeKey { get; set; }
-
 }

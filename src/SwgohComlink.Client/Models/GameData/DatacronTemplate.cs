@@ -36,5 +36,4 @@ public class DatacronTemplate
 
     [JsonPropertyName("focusedPrefab")]
     public string? FocusedPrefab { get; set; }
-
 }

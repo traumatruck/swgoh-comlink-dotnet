@@ -9,5 +9,4 @@ public class XpTable
 
     [JsonPropertyName("row")]
     public List<XpTableRow> Row { get; set; }
-
 }

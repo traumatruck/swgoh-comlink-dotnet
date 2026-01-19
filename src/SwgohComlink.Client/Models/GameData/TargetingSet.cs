@@ -9,5 +9,4 @@ public class TargetingSet
 
     [JsonPropertyName("weight")]
     public List<TargetingWeight> Weight { get; set; }
-
 }

@@ -12,5 +12,4 @@ public class DatacronSetMaterial
 
     [JsonPropertyName("dustGrantRecipeId")]
     public string? DustGrantRecipeId { get; set; }
-
 }

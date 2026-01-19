@@ -15,5 +15,4 @@ public class CrewMember
 
     [JsonPropertyName("skilllessCrewAbilityId")]
     public string? SkilllessCrewAbilityId { get; set; }
-
 }

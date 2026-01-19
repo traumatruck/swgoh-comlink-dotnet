@@ -18,5 +18,4 @@ public class LeaderboardGuild
 
     [JsonPropertyName("guildTypeId")]
     public string? GuildTypeId { get; set; }
-
 }

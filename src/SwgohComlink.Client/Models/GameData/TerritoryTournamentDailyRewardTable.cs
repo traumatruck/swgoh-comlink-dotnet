@@ -6,5 +6,4 @@ public class TerritoryTournamentDailyRewardTable
 {
     [JsonPropertyName("row")]
     public List<TerritoryTournamentDailyRewardTableRow> Row { get; set; }
-
 }

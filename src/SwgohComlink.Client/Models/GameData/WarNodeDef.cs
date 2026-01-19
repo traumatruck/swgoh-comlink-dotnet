@@ -15,5 +15,4 @@ public class WarNodeDef
 
     [JsonPropertyName("position")]
     public Position Position { get; set; }
-
 }

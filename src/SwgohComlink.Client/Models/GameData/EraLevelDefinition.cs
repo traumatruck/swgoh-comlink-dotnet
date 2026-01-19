@@ -30,5 +30,4 @@ public class EraLevelDefinition
 
     [JsonPropertyName("currentAbilityLevel")]
     public int? CurrentAbilityLevel { get; set; }
-
 }

@@ -12,5 +12,4 @@ public class SkillUpgrade
 
     [JsonPropertyName("unlocked")]
     public bool? Unlocked { get; set; }
-
 }

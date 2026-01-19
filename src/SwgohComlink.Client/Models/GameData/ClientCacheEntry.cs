@@ -9,5 +9,4 @@ public class ClientCacheEntry
 
     [JsonPropertyName("version")]
     public int? Version { get; set; }
-
 }

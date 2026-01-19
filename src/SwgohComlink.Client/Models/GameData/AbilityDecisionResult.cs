@@ -12,5 +12,4 @@ public class AbilityDecisionResult
 
     [JsonPropertyName("allyTargetId")]
     public List<string?> AllyTargetId { get; set; }
-
 }

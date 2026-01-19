@@ -12,5 +12,4 @@ public class BattleCondition
 
     [JsonPropertyName("priority")]
     public int? Priority { get; set; }
-
 }

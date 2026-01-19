@@ -9,5 +9,4 @@ public class GuildRaidRosterRefresh
 
     [JsonPropertyName("value")]
     public List<int?> Value { get; set; }
-
 }

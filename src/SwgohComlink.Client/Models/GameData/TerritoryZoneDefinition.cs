@@ -36,5 +36,4 @@ public class TerritoryZoneDefinition
 
     [JsonPropertyName("mapIconOverrideName")]
     public string? MapIconOverrideName { get; set; }
-
 }

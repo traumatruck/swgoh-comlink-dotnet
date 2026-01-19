@@ -21,5 +21,4 @@ public class CharacterQuestLine
 
     [JsonPropertyName("titleKey")]
     public string? TitleKey { get; set; }
-
 }

@@ -54,5 +54,4 @@ public class GetMetaDataResponse
 
     [JsonPropertyName("latestSegmentedContentVersion")]
     public string? LatestSegmentedContentVersion { get; set; }
-
 }

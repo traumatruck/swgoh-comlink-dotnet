@@ -12,5 +12,4 @@ public class WarBracketDef
 
     [JsonPropertyName("node")]
     public List<WarNodeDef> Node { get; set; }
-
 }

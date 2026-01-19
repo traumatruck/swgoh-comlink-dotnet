@@ -30,5 +30,4 @@ public class MysteryStatModDefinition
 
     [JsonPropertyName("descKey")]
     public string? DescKey { get; set; }
-
 }

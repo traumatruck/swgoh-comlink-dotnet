@@ -9,5 +9,4 @@ public class SeasonRewardTable
 
     [JsonPropertyName("row")]
     public List<SeasonRewardTableRow> Row { get; set; }
-
 }

@@ -27,5 +27,4 @@ public class ConquestDifficulty
 
     [JsonPropertyName("premiumImmediateRankRewardPreview")]
     public List<RankRewardPreview> PremiumImmediateRankRewardPreview { get; set; }
-
 }

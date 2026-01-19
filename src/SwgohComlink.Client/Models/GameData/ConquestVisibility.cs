@@ -9,5 +9,4 @@ public class ConquestVisibility
 
     [JsonPropertyName("distance")]
     public int? Distance { get; set; }
-
 }

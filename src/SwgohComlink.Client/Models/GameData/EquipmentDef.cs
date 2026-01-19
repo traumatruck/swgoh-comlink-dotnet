@@ -54,5 +54,4 @@ public class EquipmentDef
 
     [JsonPropertyName("raidImmediateLookup")]
     public List<LookupMission> RaidImmediateLookup { get; set; }
-
 }

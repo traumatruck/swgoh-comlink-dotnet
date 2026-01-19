@@ -15,5 +15,4 @@ public class PowerUpBundle
 
     [JsonPropertyName("autoSelectTier")]
     public bool? AutoSelectTier { get; set; }
-
 }

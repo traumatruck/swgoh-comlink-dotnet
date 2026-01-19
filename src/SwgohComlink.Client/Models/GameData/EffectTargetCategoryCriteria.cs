@@ -12,5 +12,4 @@ public class EffectTargetCategoryCriteria
 
     [JsonPropertyName("category")]
     public List<EffectTargetCategory> Category { get; set; }
-
 }

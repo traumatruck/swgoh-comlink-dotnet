@@ -186,5 +186,4 @@ public class UnitDef
 
     [JsonPropertyName("loanedUnit")]
     public bool? LoanedUnit { get; set; }
-
 }

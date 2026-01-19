@@ -9,5 +9,4 @@ public class LoanedUnitEraDefinition
 
     [JsonPropertyName("expireTime")]
     public long? ExpireTime { get; set; }
-
 }

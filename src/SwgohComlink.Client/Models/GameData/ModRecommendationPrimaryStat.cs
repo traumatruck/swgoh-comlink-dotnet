@@ -9,5 +9,4 @@ public class ModRecommendationPrimaryStat
 
     [JsonPropertyName("stat")]
     public List<UnitStat> Stat { get; set; }
-
 }

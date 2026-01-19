@@ -15,5 +15,4 @@ public class SkillDefinitionReference
 
     [JsonPropertyName("requiredRelicTier")]
     public RelicTier RequiredRelicTier { get; set; }
-
 }

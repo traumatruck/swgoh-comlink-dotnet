@@ -9,5 +9,4 @@ public class EnvironmentCollection
 
     [JsonPropertyName("battleEnvironment")]
     public List<Environment> BattleEnvironment { get; set; }
-
 }

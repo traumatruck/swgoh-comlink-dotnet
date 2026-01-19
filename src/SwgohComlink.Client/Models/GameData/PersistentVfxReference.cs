@@ -6,5 +6,4 @@ public class PersistentVfxReference
 {
     [JsonPropertyName("id")]
     public string? Id { get; set; }
-
 }

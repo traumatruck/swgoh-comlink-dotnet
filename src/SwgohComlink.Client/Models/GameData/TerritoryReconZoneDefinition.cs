@@ -48,5 +48,4 @@ public class TerritoryReconZoneDefinition
 
     [JsonPropertyName("unitRelicTier")]
     public RelicTier UnitRelicTier { get; set; }
-
 }

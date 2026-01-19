@@ -15,5 +15,4 @@ public class TerritoryStrikeZoneDefinition
 
     [JsonPropertyName("combatType")]
     public CombatType CombatType { get; set; }
-
 }

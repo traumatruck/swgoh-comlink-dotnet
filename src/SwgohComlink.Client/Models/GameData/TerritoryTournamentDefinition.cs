@@ -87,5 +87,4 @@ public class TerritoryTournamentDefinition
 
     [JsonPropertyName("savedSquadConfigId")]
     public string? SavedSquadConfigId { get; set; }
-
 }

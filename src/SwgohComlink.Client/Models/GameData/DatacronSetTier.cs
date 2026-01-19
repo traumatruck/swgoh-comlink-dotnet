@@ -18,5 +18,4 @@ public class DatacronSetTier
 
     [JsonPropertyName("scopeIdentifier")]
     public DatacronScopeIdentifier ScopeIdentifier { get; set; }
-
 }

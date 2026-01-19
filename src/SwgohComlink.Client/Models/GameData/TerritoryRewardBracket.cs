@@ -12,5 +12,4 @@ public class TerritoryRewardBracket
 
     [JsonPropertyName("reward")]
     public TerritoryReward Reward { get; set; }
-
 }

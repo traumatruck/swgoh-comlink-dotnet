@@ -12,5 +12,4 @@ public class SeasonDivisionDefinition
 
     [JsonPropertyName("minPower")]
     public int? MinPower { get; set; }
-
 }

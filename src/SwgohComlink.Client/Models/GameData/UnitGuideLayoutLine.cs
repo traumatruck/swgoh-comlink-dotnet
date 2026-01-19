@@ -6,5 +6,4 @@ public class UnitGuideLayoutLine
 {
     [JsonPropertyName("unitGuideId")]
     public List<string?> UnitGuideId { get; set; }
-
 }

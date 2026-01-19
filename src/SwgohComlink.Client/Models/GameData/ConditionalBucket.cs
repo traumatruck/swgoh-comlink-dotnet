@@ -9,5 +9,4 @@ public class ConditionalBucket
 
     [JsonPropertyName("bucketItem")]
     public List<BucketItem> BucketItem { get; set; }
-
 }

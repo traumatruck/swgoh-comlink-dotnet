@@ -18,5 +18,4 @@ public class SocialStatus
 
     [JsonPropertyName("chatPortraits")]
     public List<SocialStatusPortrait> ChatPortraits { get; set; }
-
 }

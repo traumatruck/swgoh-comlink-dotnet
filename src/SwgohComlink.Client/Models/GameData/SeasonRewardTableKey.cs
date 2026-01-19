@@ -12,5 +12,4 @@ public class SeasonRewardTableKey
 
     [JsonPropertyName("rank")]
     public int? Rank { get; set; }
-
 }

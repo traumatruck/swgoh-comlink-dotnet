@@ -12,5 +12,4 @@ public class TerritoryReward
 
     [JsonPropertyName("rewardId")]
     public string? RewardId { get; set; }
-
 }

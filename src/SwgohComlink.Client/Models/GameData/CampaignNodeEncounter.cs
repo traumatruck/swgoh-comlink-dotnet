@@ -63,5 +63,4 @@ public class CampaignNodeEncounter
 
     [JsonPropertyName("displayableGrantedAbility")]
     public List<string?> DisplayableGrantedAbility { get; set; }
-
 }

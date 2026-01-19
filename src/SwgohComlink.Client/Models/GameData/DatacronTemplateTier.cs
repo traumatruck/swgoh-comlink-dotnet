@@ -24,5 +24,4 @@ public class DatacronTemplateTier
 
     [JsonPropertyName("overrideScopeIdentifier")]
     public DatacronScopeIdentifier OverrideScopeIdentifier { get; set; }
-
 }

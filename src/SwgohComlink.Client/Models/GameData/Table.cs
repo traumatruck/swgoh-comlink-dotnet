@@ -9,5 +9,4 @@ public class Table
 
     [JsonPropertyName("row")]
     public List<TableRow> Row { get; set; }
-
 }

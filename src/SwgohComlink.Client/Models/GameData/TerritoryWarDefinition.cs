@@ -120,5 +120,4 @@ public class TerritoryWarDefinition
 
     [JsonPropertyName("minPlayerScoreRequirement")]
     public int? MinPlayerScoreRequirement { get; set; }
-
 }

@@ -21,5 +21,4 @@ public class PlayerTitleDefinition
 
     [JsonPropertyName("shortDescKey")]
     public string? ShortDescKey { get; set; }
-
 }

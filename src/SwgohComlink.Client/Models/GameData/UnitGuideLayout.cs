@@ -12,5 +12,4 @@ public class UnitGuideLayout
 
     [JsonPropertyName("layoutTier")]
     public List<UnitGuideLayoutTier> LayoutTier { get; set; }
-
 }

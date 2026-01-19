@@ -24,5 +24,4 @@ public class CampaignNodeDifficultyGroup
 
     [JsonPropertyName("grindEnabled")]
     public bool? GrindEnabled { get; set; }
-
 }

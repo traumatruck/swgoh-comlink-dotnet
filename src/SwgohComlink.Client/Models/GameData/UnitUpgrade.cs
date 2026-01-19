@@ -45,5 +45,4 @@ public class UnitUpgrade
 
     [JsonPropertyName("abilityDescriptiveTagSkillTier")]
     public List<TagTier> AbilityDescriptiveTagSkillTier { get; set; }
-
 }

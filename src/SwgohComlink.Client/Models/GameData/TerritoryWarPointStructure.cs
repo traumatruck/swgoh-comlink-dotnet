@@ -36,5 +36,4 @@ public class TerritoryWarPointStructure
 
     [JsonPropertyName("enemyDefeatedBonus")]
     public TerritoryReward EnemyDefeatedBonus { get; set; }
-
 }

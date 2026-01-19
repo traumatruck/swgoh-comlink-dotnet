@@ -12,5 +12,4 @@ public class UnitTierDef
 
     [JsonPropertyName("baseStat")]
     public StatDef BaseStat { get; set; }
-
 }

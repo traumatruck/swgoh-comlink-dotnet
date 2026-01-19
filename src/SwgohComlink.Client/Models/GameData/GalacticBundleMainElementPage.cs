@@ -15,5 +15,4 @@ public class GalacticBundleMainElementPage
 
     [JsonPropertyName("sprite")]
     public List<string?> Sprite { get; set; }
-
 }

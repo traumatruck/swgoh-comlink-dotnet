@@ -15,5 +15,4 @@ public class ConsumableType
 
     [JsonPropertyName("iconKey")]
     public string? IconKey { get; set; }
-
 }

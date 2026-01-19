@@ -24,5 +24,4 @@ public class SeasonDefinition
 
     [JsonPropertyName("divisionSkillBoundary")]
     public List<SeasonDivisionSkillBoundary> DivisionSkillBoundary { get; set; }
-
 }

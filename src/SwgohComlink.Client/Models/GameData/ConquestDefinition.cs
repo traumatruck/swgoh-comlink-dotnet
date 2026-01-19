@@ -27,5 +27,4 @@ public class ConquestDefinition
 
     [JsonPropertyName("miscEntry")]
     public List<ConquestPurchasePassMiscTextEntry> MiscEntry { get; set; }
-
 }
