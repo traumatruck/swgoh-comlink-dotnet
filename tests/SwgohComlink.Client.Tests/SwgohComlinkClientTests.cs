@@ -1,6 +1,8 @@
 ﻿using System.Net;
 using System.Text.Json;
 using FluentAssertions;
+using Microsoft.Extensions.Logging;
+using Moq;
 using RichardSzalay.MockHttp;
 using SwgohComlink.Client.Models.GameData;
 using SwgohComlink.Client.Models.Player;
@@ -12,13 +14,15 @@ public class SwgohComlinkClientTests
 {
     private readonly SwgohComlinkClient _client;
     private readonly MockHttpMessageHandler _mockHttp;
+    private readonly Mock<ILogger<SwgohComlinkClient>> _loggerMock;
 
     public SwgohComlinkClientTests()
     {
         _mockHttp = new MockHttpMessageHandler();
         var httpClient = _mockHttp.ToHttpClient();
         httpClient.BaseAddress = new Uri("http://localhost:3000");
-        _client = new SwgohComlinkClient(httpClient);
+        _loggerMock = new Mock<ILogger<SwgohComlinkClient>>();
+        _client = new SwgohComlinkClient(httpClient, _loggerMock.Object);
     }
 
     [Fact]
@@ -162,7 +166,7 @@ public class SwgohComlinkClientTests
 
         // Assert
         await act.Should().ThrowAsync<InvalidOperationException>()
-            .WithMessage("Response deserialization returned null.");
+            .WithMessage("Response deserialization returned null for endpoint: /enums*");
     }
 
     [Fact]
