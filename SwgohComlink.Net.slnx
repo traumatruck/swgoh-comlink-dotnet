@@ -5,5 +5,7 @@
     </Folder>
     <Folder Name="/tests/">
         <Project Path="tests/SwgohComlink.Client.Tests/SwgohComlink.Client.Tests.csproj" />
+        <Project Path="tests/SwgohComlink.MockApi/SwgohComlink.MockApi.csproj" />
+        <Project Path="tests/SwgohComlink.IntegrationTests/SwgohComlink.IntegrationTests.csproj" />
     </Folder>
 </Solution>
