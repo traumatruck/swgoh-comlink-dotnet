@@ -1,6 +1,7 @@
 using System.Net.Http.Json;
 using System.Text.Json;
 using Microsoft.Extensions.Logging;
+using SwgohComlink.Client.Models.Metrics;
 using SwgohComlink.Client.Requests;
 
 namespace SwgohComlink.Client;
@@ -12,6 +13,7 @@ public class SwgohComlinkClient(HttpClient httpClient, ILogger<SwgohComlinkClien
     {
         var endpoint = TRequest.Endpoint;
         var method = TRequest.HttpMethod;
+        var isPlainText = TRequest.IsPlainTextResponse;
 
         HttpResponseMessage response;
 
@@ -24,19 +26,45 @@ public class SwgohComlinkClient(HttpClient httpClient, ILogger<SwgohComlinkClien
             response = await httpClient.PostAsJsonAsync(endpoint, request, cancellationToken);
         }
 
-        response.EnsureSuccessStatusCode();
+        if (!response.IsSuccessStatusCode)
+        {
+            var errorContent = await response.Content.ReadAsStringAsync(cancellationToken);
+            
+            logger.LogError(
+                "HTTP request to {Endpoint} failed with status code {StatusCode} ({ReasonPhrase}). Method: {Method}. Response body: {ErrorContent}",
+                endpoint, (int)response.StatusCode, response.ReasonPhrase, method, errorContent);
+            
+            response.EnsureSuccessStatusCode(); // This will throw with the original exception
+        }
 
         try
         {
             var rawContent = await response.Content.ReadAsStringAsync(cancellationToken);
 
-            logger.LogDebug("Response status: {StatusCode}, Content length: {ContentLength} bytes", response.StatusCode,
-                rawContent.Length);
+            logger.LogDebug(
+                "Response status: {StatusCode}, Content length: {ContentLength} bytes, PlainText: {IsPlainText}",
+                response.StatusCode, rawContent.Length, isPlainText);
 
             if (string.IsNullOrWhiteSpace(rawContent))
             {
                 logger.LogError("Received empty response body from endpoint: {Endpoint}", endpoint);
                 throw new InvalidOperationException($"Empty response received from endpoint: {endpoint}");
+            }
+
+            // Handle plain text responses
+            if (isPlainText)
+            {
+                if (typeof(TResponse) == typeof(PlainSuccessResponse))
+                {
+                    var plainResponse = new PlainSuccessResponse { Value = rawContent };
+                    return (plainResponse as TResponse)!;
+                }
+
+                logger.LogError("Plain text response requested but response type {ResponseType} is not supported",
+                    typeof(TResponse).Name);
+                
+                throw new InvalidOperationException(
+                    $"Plain text response requested but response type {typeof(TResponse).Name} is not supported. Use PlainSuccessResponse for plain text endpoints.");
             }
 
             var result = JsonSerializer.Deserialize<TResponse>(rawContent, new JsonSerializerOptions
@@ -71,7 +99,7 @@ public class SwgohComlinkClient(HttpClient httpClient, ILogger<SwgohComlinkClien
             logger.LogError(ex,
                 "Unexpected error processing response from endpoint: {Endpoint}. Response type: {ResponseType}",
                 endpoint, typeof(TResponse).Name);
-            
+
             throw;
         }
     }

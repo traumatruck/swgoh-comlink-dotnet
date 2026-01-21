@@ -6,4 +6,5 @@ public class GetMetricsRequest : IRequest<PlainSuccessResponse>
 {
     public static string Endpoint => "/metrics";
     public static HttpMethod HttpMethod => HttpMethod.Get;
+    public static bool IsPlainTextResponse => true;
 }
